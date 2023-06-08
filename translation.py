@@ -36,7 +36,7 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-''''
+'''
 
 ABOUT_TEXT = '''**Hey! My name is @Tamizhmasters_converter_bot. I am Shortener Fly Link Converter Bot.**
 
