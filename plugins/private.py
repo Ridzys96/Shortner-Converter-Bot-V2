@@ -42,7 +42,7 @@ async def private_link_handler(c: Client, message: Message):
         try:
             txt = await message.reply('`Converting.......`', quote=True)
 
-            await main_convertor_handler(message, user_method, user=user)
+            await main_convertor_handler(message, base_site, user=user)
             await update_stats(message, user_method)
             bin_caption = f"""{caption}
 
