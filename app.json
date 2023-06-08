@@ -1,0 +1,60 @@
+{
+  "name": "TG Shortlink Bot",
+  "description": "TG Shortlink Converter Made By WD-BOTS",
+  "keywords": [
+    "ShortLink",
+    "Converter",
+    "Bot"
+  ],
+  "repository": "https://github.com/Ridzys96/Shortner-Converter-Bot-V2",
+  "logo": "https://ibb.co/FgPVtzw",
+  "env": {
+    "API_ID": {
+      "value": ""
+    },
+    "API_HASH": {
+      "value": "1250450587"
+    },
+    "BOT_TOKEN":{
+      "value": ""
+    },
+    "DATABASE_URL": {
+      "value": "url"
+    },
+    "DATABASE_NAME":{
+      "value": "shortlink"
+    },
+    "OWNER_ID":{
+      "value": ""
+    },
+    "ADMINS":{
+      "value": ""
+    },
+    "OWNER_ID":{
+      "value": ""
+    },
+    "LOG_CHANNEL": {
+      "value": ""
+    },
+    "UPDATE_CHANNEL": {
+      "value": ""
+    },
+    "BROADCAST_AS_COPY": {
+      "value": "",
+    },
+    "WELCOME_IMAGE": {
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
